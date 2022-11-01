@@ -33,11 +33,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
-                android:text="@string/jenis_jenis_fotografi"
+                android:text="@string/kamera"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
         </LinearLayout>
-
         <com.github.barteksc.pdfviewer.PDFView
             android:id="@+id/pdf_view"
             android:layout_width="match_parent"

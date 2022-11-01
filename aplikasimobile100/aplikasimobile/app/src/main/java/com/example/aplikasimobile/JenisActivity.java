@@ -15,7 +15,7 @@ public class JenisActivity extends AppCompatActivity {
         setContentView(R.layout.activity_jenis);
 
         PDFView pdfView = findViewById(R.id.pdf_view);
-        pdfView.fromAsset("jenis2kamera.pdf")
+        pdfView.fromAsset("pengertiankamera.pdf")
                 .enableSwipe(true)
                 .enableDoubletap(true)
                 .load();
